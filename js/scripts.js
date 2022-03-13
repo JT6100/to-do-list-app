@@ -39,3 +39,9 @@ function deleteListItem() {
     li.addClass('delete');
 
 }
+
+crossOutButton.on('click', deleteListItem);
+
+$('#list').sortable();
+
+
