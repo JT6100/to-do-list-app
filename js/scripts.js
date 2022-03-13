@@ -12,6 +12,12 @@ function newItem() {
 
     } else {
         
-        $('#list').append(li);
+        $('#list').append(li)
     }
+}
+
+function crossOut(){
+
+    li.toggleClasss('strike');
+    
 }
