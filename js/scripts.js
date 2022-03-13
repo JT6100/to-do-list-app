@@ -14,23 +14,23 @@ function newItem() {
         
         $('#list').append(li)
     }
-}
 
-function crossOut(){
+function crossOut() {
 
     li.toggleClasss('strike');
 
 }
 
-li.on('dblclick', function crossOut() {
+li.on('dbclick', function crossOut() {
 
     li.toggleClasss('strike');
 
 });
 
+
 let crossOutButton = $('<crossOutButton></crossOutButton>');
 
-crossOutButton. append(document.createTextNode('X'));
+crossOutButton.append(document.createTextNode('X'));
 
 li.append(crossOutButton);
 
@@ -44,4 +44,4 @@ crossOutButton.on('click', deleteListItem);
 
 $('#list').sortable();
 
-
+}
