@@ -17,7 +17,7 @@ function newItem() {
 
 function crossOut() {
 
-    li.toggleClasss('strike');
+    li.toggleClass('strike');
 
 }
 
