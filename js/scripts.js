@@ -23,7 +23,7 @@ function crossOut() {
 
 li.on('dbclick', function crossOut() {
 
-    li.toggleClasss('strike');
+    li.toggleClass('strike');
 
 });
 
